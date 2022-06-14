@@ -20,8 +20,8 @@ class Person {
 
 }
 
-const person1 = new Person ('John', 40 );
-const person2 = new Person('Mary', 35);
+const person1: Person = new Person ('John', 40 );
+const person2: Person = new Person('Mary', 35);
 person1.tellMyAge();
 person1.tellMyName();
 person2.tellMyAge();
